@@ -1,0 +1,224 @@
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+ @import url('https://fonts.googleapis.com/css?family=Russo+One');
+.navbar-nav{
+
+}
+.nav-item{
+padding-left:20px;
+}
+.navbar-nav .nav-link:hover{
+background-color: #004793;
+border-radius: 10%;
+}
+.carousel-item img{
+
+	height: 400px;
+}
+.card{
+
+	margin-top:50px;
+	margin-left: 10px;
+	border:1px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(247,220,247,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(247,220,247,1);
+	box-shadow: 10px 10px 5px 0px rgba(247,220,247,1);
+
+
+}
+.mt-20{
+	margin-top: 20px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.mt-62{
+margin-top:62px;
+}
+.mt-100{
+margin-top:100px;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mb-50{
+	margin-bottom: 50px;
+}
+.mb-100{
+  margin-bottom: 100px;
+}
+.pt-20{
+	padding-top:20px; 
+}
+.hcaption{
+background: url(../image/hcaptio.jpeg) no-repeat; 
+padding: 100px 0 100px 0;
+margin-top: 100px;
+background-position: center center;
+background-size: cover;
+color: #fff;
+}
+/*.title{
+border-bottom: 3px solid #26BDEF;
+padding-bottom: 11px;
+width:10%;
+}*/
+.bg-title{
+  background: url(../image/photo.jpg) no-repeat;
+  padding: 200px 0 113px 0;
+  background-position: center center;
+  background-size: cover;
+  color: #fff; 
+}
+.ntitle{
+font-family: 'Russo One', sans-serif;
+text-align: center;
+transform: skew(-10deg);
+}
+.title{
+font-family: 'Russo One', sans-serif;
+text-align: center;
+border: 5px;
+width: 20%;
+margin: auto;
+background-color: #aba418;
+transform: skew(-10deg);
+}
+.ntitle:after{
+content: "";
+position: absolute;
+bottom: -15px;
+background-image: linear-gradient( to right,#FFBA42,#e373c5 );
+width: 120px;
+height: 4px;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+ .title:after{
+content: "";
+position: absolute;
+bottom: -20px;
+background-image: linear-gradient( to right,#FFBA42,#e373c5 );
+width: 120px;
+height: 4px;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+.footer{
+padding: 20px;
+-webkit-box-shadow:2px 2px 2px 2px solid #ccc;
+-moz-box-shadow:2px 2px 2px 2px solid #ccc;
+box-shadow: 2px 2px 2px 2px solid #ccc;
+
+}
+.footer img{
+	width: 100px;
+}
+.footer p{
+	text-align: center;
+	color: #fff;
+}
+/*
+.hcaption:after{
+    position: absolute;
+    color: #21b6a8;
+    font-size: 24px;
+    content: '\f141';
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 8px;
+}*/
+
+#toTop {
+    bottom: 100px;
+    display: none;
+    position: fixed;
+    right: 50px;
+    text-decoration: none;
+    z-index: 10000;
+}
+
+#toTop i {
+    background:#199cdb;
+    color: #ffffff;
+    padding: 3px 4px;
+    z-index: 10000;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius :2px;
+	-ms-border-radius:2px;
+	-o-border-radius: 2px;
+	position:relative;
+	display:block;
+
+}
+
+#toTop:active, #toTop:focus {
+    outline: medium none;
+}
+.social{
+	text-align: end;
+	font-size: 20px;
+}	
+.social a{
+	color: #fff;
+}
+.box{
+	margin-top: 10px;
+	border: 1px solid #efeded;
+	width: 100%;
+	color: #ccc;
+  padding: 5px;
+  text-align: center;
+}
+.box > i{
+padding-right: 10px;
+
+}
+.card-img-top{
+	
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+}
+.card img:hover{
+	opacity: 1;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.sign{
+  color: #fff;
+}
+
+.sign:hover{
+  color: #fff;
+}
+.winner{
+  margin-top: 100px;
+}

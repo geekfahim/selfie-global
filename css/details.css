@@ -1,0 +1,99 @@
+
+
+/* ==========================================================================
+   Fahim's custom styles
+   ========================================================================== */
+ @import url('https://fonts.googleapis.com/css?family=Righteous');
+  @import url('https://fonts.googleapis.com/css?family=Cairo:400,700');
+ .profile
+{
+    font-family: 'Righteous', cursive;
+}
+.proimg{
+    margin-left: 20px; 
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+    z-index: 1;
+}
+.proimg img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.layer{
+border-bottom: 70px solid #fff;
+-webkit-box-shadow: 5px 5px 5px 5px rgba(247,220,247,1);
+-moz-box-shadow: 5px 5px 5px 5px rgba(247,220,247,1);
+box-shadow: 5px 5px 5px 5px rgba(247,220,247,1);
+}
+.description{
+    text-align: center;
+    margin-top:-192px;
+}
+
+.view{
+border: 1px solid #ededed;
+text-align: justify;
+font-family: sans-serif;
+font-weight: bolder;
+padding-bottom: 70px;
+}
+.bg-grey-1{
+    background-color: #f5f5f5;
+}
+.bg-grey-2{
+      background-color: #f0f0f0;
+}
+.view:hover{
+    background-color: aliceblue;
+}
+.info{
+    background: url(../image/bg.jpg);
+    height: 400px;
+    color: #fff;
+    padding-left: 350px;
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(247,220,247,1);
+    -moz-box-shadow: 5px 5px 5px 5px rgba(247,220,247,1);
+    box-shadow: 5px 5px 5px 5px rgba(247,220,247,1);
+/*! overflow: hidden; */
+/*transform: skew(-1deg);*/
+z-index: -1;
+}
+.info h5{
+    margin-top: 30px;
+}
+.gallery{
+    margin-left: 20px
+}
+.gallery > .card{
+    margin-left: 10px;
+}
+.gcaption{
+}
+.gtitle{
+border: 5px solid #f9f9f9;
+width: 20%;
+margin: auto;
+background-color: #dae2f9;
+color: #007bff;
+transform: skew(-10deg);
+}
+.dtitle{
+    font-family: 'Cairo', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /*text-align: center;*/
+}
+.dtitle:after{
+  content: "";
+position: absolute;
+top: 150px;
+background-image: linear-gradient( to right,#FFBA42,#e373c5 );
+width: 120px;
+height: 4px;
+left: 0;
+right:280px;
+margin: 0 auto;
+}
