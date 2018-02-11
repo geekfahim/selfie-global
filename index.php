@@ -3,13 +3,12 @@
   <head>
 
     <title>Selfie Global | A Place Of Photos</title>
-
         <link rel="stylesheet" type="text/css" href="css/client.css">
   </head>
   <body>
 	 <a href="#" id="toTop">
   <?php include('header.php') ?>
-  <div id="carouselExampleIndicators" class="carousel slide mt-62" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block mt-62" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -18,12 +17,21 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="image/slide1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Photgraphy Contest</h5>
+            </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="image/slide1.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Selfie Contest</h5>
+            </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="image/slide1.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Painting Contest</h5>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -35,72 +43,62 @@
           <span class="sr-only">Next</span>
         </a>
   </div>
-  <div class="jumbotron mt-50">
-  <h1 class="display-4">Get Surprizing Prizes!</h1>
-  <p class="lead">Perticipate in competition & win exciting prize.Prizes are given daily basis.</p>
-  <hr class="my-4">
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </p>
+  <div class="jumbotron m-b-0">
+    <img src="image/prize.png" class="col-md-3" alt="">
+  <h1 class="display-4">Win Surprizing Prizes!</h1>
+  <p class="lead">Perticipate in competition & win exciting prize.<br>Prizes are given daily basis.</p>
+      <a class="btn btn-primary btn-lg" href="signin.php" role="button">Sign In</a>
+
 </div>
-<div class="Modeling mt-100">
-    <div class="hcaption">
-      <h2 class="title mx-auto  mt-100">Modeling</h2>
+<div class="Modeling">
+    <div class="hcaption m-t-1">
+      <h2 class="title mx-auto  ">Modeling</h2>
     </div>
     <div class="container-fluid">
       <div class="row">
          <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box  light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed </h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box  light-box" src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box  light-box" src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box  light-box" src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box  light-box" src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
         <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box  light-box" src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box  light-box" src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
 
               </div>
@@ -109,7 +107,16 @@
 
       </div>
   </div>  
-
+<div class="container-fluid">
+ <div class="row">
+      <div class="card m-t-0 m-r-10">
+        <div class="col-md-12">
+          <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </P>                    
+        </div>
+      </div>
+ </div>
+</div>
   </div>
   <div class="Actor">
    <div class="hcaption">
@@ -118,57 +125,49 @@
   <div class="container-fluid">
       <div class="row">
          <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box  light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
         <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
 
               </div>
@@ -179,6 +178,16 @@
   </div>  
 
   </div>
+<div class="container-fluid">
+ <div class="row">
+      <div class="card m-t-0 m-r-10">
+        <div class="col-md-12">
+          <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </P>                    
+        </div>
+      </div>
+ </div>
+</div>  
   <div class="Actress">
     <div class="hcaption">
        <h2 class="title mx-auto mt-62 mb-100">Actress</h2>
@@ -186,62 +195,64 @@
     <div class="container-fluid">
          <div class="row">
          <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
               </div>
             </div>
           </div>
       <div class="col-md-3">
-             <div class="card " style="width: 18rem;">
-              <img class="card-img-top light-box " src="image/pic1.jpg" alt="Card image cap">
+             <div class="card " style="width: 17rem;">
+              <img class="card-img-top light-box " src="image/model.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Tahmid Ahmed</h5>
                   <span>Age:&nbsp; 23</span><br>
                   <span>Height:&nbsp;5.5"</span><br>                 
-                  <span>City:&nbsp;</span><br>
-                  <span>waist:&nbsp;</span><br>
-                  <span>Eye Color:&nbsp;</span><br>
+
                   <a href="details.php" class="btn btn-primary mt-20">Details</a>
 
               </div>
             </div>
-      </div>  
+      </div>
+ <div class="container-fluid">
+           <div class="row">
+                <div class="card m-t-0 m-r-10">
+                  <div class="col-md-12">
+                    <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </P>                    
+                  </div>
+                </div>
+           </div>
+         </div>      
 <div class="container">
   <h2 class="partner ntitle">Our  Partners</h2>
    <section class="customer-logos slider">

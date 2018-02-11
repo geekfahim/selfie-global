@@ -7,7 +7,7 @@
 <body>
 <div class="Modeling mt-100">
     <div class="hcaption">
-    <h2 class="title mx-auto  mt-100">Modeling</h2>
+    <h2 class="title mx-auto  mt-100">Actress</h2>
     </div>
     <div class="container-fluid">
       <div class="row">

@@ -6,20 +6,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
+  <?php include('dashboard_sidebar.php') ?>
 
     <title>SelfiGlobal</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
   </head>
 
   <body>
-    <nav class="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-2">
+   <!--  <nav class="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-2">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">SelfiGlobal</a>
-      <input class="form-control form-control-dark w-50" type="text" placeholder="Search" aria-label="Search">
+      <input class="form-control form-control-dark w-50" type="text" placeholder="Search" aria-label="Search">     
       <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown p-1">
                   <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="oi oi-bell"></span><span class="badge">2</span><span class="caret"></span></a>
@@ -41,13 +42,16 @@
           </a>
         </li>
     </ul>
-    </nav>
-
-    <div class="container-fluid">
+        <button class="d-md-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav> -->
+    <!-- <div class="container-fluid">
       <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+        <nav class="col-md-2 bg-dark sidebar">
           <div class="sidebar-sticky">
-            <ul class="nav  flex-column">
+              <div class="collapse d-md-block navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav flex-column" >
               <li class="nav-item ">
                 <a class="nav-link " href="#">
                   <span data-feather="home"></span>
@@ -56,10 +60,16 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="index.php">
+                  <span class="oi oi-info"></span>
+                    Instructions 
+               </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="index.php">
                   <span class="oi oi-home"></span>
                     Visit Site
                 </a>
-              </li>
+              </li>              
               <li class="nav-item">
                 <a class="nav-link " href="#">
                   <span class="oi oi-flag"></span>
@@ -67,7 +77,7 @@
                 </a>
               </li>
                <li class="nav-item">
-                <a class="nav-link " href="#">
+                <a class="nav-link " href="photos.php">
                 <span class="oi oi-camera-slr"></span>
                   Photos
                 </a>
@@ -89,8 +99,9 @@
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
             </h6>
           </div>
+        </div>  
         </nav>
-
+ -->
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
             <h1 class="h2">Dashboard</h1>
@@ -114,10 +125,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
 
     <!-- Icons -->
-    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
     <script>
       feather.replace()
     </script>
@@ -153,6 +162,5 @@
         }
       });
     </script>
-    <?php include('footer.php') ?>
   </body>
 </html>

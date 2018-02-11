@@ -7,17 +7,16 @@
 <body>
 <div class="Modeling mt-100">
     <div class="hcaption">
-    <h2 class="title mx-auto  mt-100">Painter</h2>
+    <h2 class="title mx-auto  mt-100">Showpiece</h2>
     </div>
     <div class="container-fluid">
       <div class="row">
          <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
-                  <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>                
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -26,16 +25,17 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
                       <img  src="image/pic1.jpg" alt="image">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5>
+                      <h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -55,10 +55,10 @@
  <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -67,15 +67,16 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5>
+                      <h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -96,10 +97,10 @@
        <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -108,15 +109,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -136,10 +137,10 @@
        <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -148,15 +149,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -191,10 +192,10 @@
                 <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -203,15 +204,16 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5>
+                      <h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -231,10 +233,10 @@
                 <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -243,15 +245,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -271,10 +273,10 @@
                <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -283,15 +285,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -311,10 +313,10 @@
                 <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -323,15 +325,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -365,10 +367,10 @@
          <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">                                  
                     <a href="details.php">
                       <button type="submit" class="btn btn-primary">Add to Cart</button>
@@ -380,10 +382,10 @@
         <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -392,15 +394,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -420,10 +422,10 @@
        <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -432,15 +434,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -460,10 +462,10 @@
        <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -472,15 +474,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -512,10 +514,10 @@
          <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -524,16 +526,16 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
                       <img  src="image/pic1.jpg" alt="image">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -553,10 +555,10 @@
  <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -565,15 +567,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -594,10 +596,10 @@
        <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -606,15 +608,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">
@@ -634,10 +636,10 @@
        <div class="col-md-3">
              <div class="card " style="width: 18rem;">
               <img class="card-img-top light-box  light-box " src="image/pic1.jpg" alt="Card image cap">
-                <h5 class="card-title text-center m-t-20">Painter:&nbsp;&nbsp;Tahmid Ahmed </h5>
+                <h5 class="card-title text-center m-t-20">Showpiece Name:&nbsp;&nbsp;Tahmid Ahmed </h5>
               <div class="card-body box">                  
                   <h6 class="selltitle">Price:&nbsp;&nbsp;2000Tk</h6>
-                  <h6 class="selltitle">Place:&nbsp;&nbsp;Dhaka,Bangladesh</h6>
+                  
                   <div class="col-md-12 divider ">  
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#details">
                 Details
@@ -646,15 +648,15 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="details">Product No : &nbsp;</h5>
+                    <h5 class="modal-title" id="details">Product No: &nbsp;</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                      <h5>Painter Name:&nbsp;&nbsp;</h5>
-                      <h5>Place:&nbsp;&nbsp;</h5>
-                      <h5>Date:&nbsp;&nbsp;</h5>
+                      <h5>Showpiece Name:&nbsp;&nbsp;</h5><h5>Price:&nbsp;&nbsp;</h5>
+                      <h5>Location:&nbsp;&nbsp;</h5>
+                      <h5>Material:&nbsp;&nbsp;</h5>
                       <h5>Details:&nbsp;&nbsp;</h5>
                   </div>
                   <div class="modal-footer">

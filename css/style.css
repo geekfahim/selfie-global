@@ -1,28 +1,42 @@
 @import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
  @import url('https://fonts.googleapis.com/css?family=Russo+One');
 .navbar-nav{
-
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
 }
 .nav-item{
-padding-left:20px;
+padding-left:25px;
+}
+.nav-link{
+  transition: all 1s;
+}
+.dropdown-item:{
+  transition: all 1s;
+}
+.dropdown-item:hover{
+background-color: #004793;
+color: #fff;
 }
 .navbar-nav .nav-link:hover{
 background-color: #004793;
-border-radius: 10%;
+border-radius: 10px;
 }
 .carousel-item img{
 
 	height: 400px;
 }
-.card{
 
+.card{
+  font-size: 14px;
 	margin-top:50px;
 	margin-left: 10px;
 	border:1px;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(247,220,247,1);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(247,220,247,1);
 	box-shadow: 10px 10px 5px 0px rgba(247,220,247,1);
-
 
 }
 .mt-20{
@@ -52,7 +66,7 @@ margin-top:100px;
 .hcaption{
 background: url(../image/hcaptio.jpeg) no-repeat; 
 padding: 100px 0 100px 0;
-margin-top: 100px;
+margin-top: 90px;
 background-position: center center;
 background-size: cover;
 color: #fff;
@@ -119,6 +133,17 @@ box-shadow: 2px 2px 2px 2px solid #ccc;
 	text-align: center;
 	color: #fff;
 }
+.selltitle{
+  color: #000;
+  margin-bottom: 20px;
+}
+.modal-body>img{
+  width: 150px;
+  margin-bottom: 50px;
+}
+.color-black{
+  color: #000;
+}
 /*
 .hcaption:after{
     position: absolute;
@@ -183,13 +208,16 @@ padding-right: 10px;
 	opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  height: 265px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 }
 .card img:hover{
 	opacity: 1;
+}
+.card-title{
+  font-size: 16px;
 }
 .middle {
   transition: .5s ease;
@@ -214,6 +242,7 @@ padding-right: 10px;
 
 .sign{
   color: #fff;
+  margin-left: 10px;
 }
 
 .sign:hover{
@@ -221,4 +250,16 @@ padding-right: 10px;
 }
 .winner{
   margin-top: 100px;
+}
+.card>img:hover{
+  opacity: 0.7;
+}
+.sign,.sign>td,.sign>th,.nav li.sign.active>a,.pagination li.sign,.pagination>li.active.sign>a,.pager>li.sign>a{
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 40px 40px;
+animation: 2s linear 0s normal none infinite progress-bar-stripes;
+-webkit-animation: progress-bar-stripes 2s linear infinite;
+}
+.btn.btn-default.sign,input[type="text"].sign,select.sign,textarea.sign,.well.sign,.list-group-item.sign,.pagination>li.active.sign>a,.pager>li.sign>a{
+background-image: linear-gradient(45deg, rgba(235, 235, 235, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(235, 235, 235, 0.15) 50%, rgba(235, 235, 235, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
